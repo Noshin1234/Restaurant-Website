@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, Helvetica, sans-seif';
+
+}
+.tbluu{
+    width: 60%;
+}
+.success{
+    color:darkgreen;
+}
+.error{
+    color:crimson;
+}
+.button-list {
+    text-align: center; /* Center-align the buttons */
+}
+
+.button-list a {
+    display: block;
+    margin: 10px 0; /* Add spacing (adjust as needed) */
+}
+.medium-button {
+    display: inline-block;
+    padding:  10px;
+    width: 150px; /* Adjust padding for medium size */
+    margin: 10px; /* Add spacing between buttons */
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Button text color */
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size for medium size */
+    cursor: pointer;
+}

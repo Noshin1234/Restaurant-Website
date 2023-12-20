@@ -1,0 +1,133 @@
+/*
+   Author:Ayesha Chowdhury;
+   Theme: Resturent Website Admin;
+   Version: 1.0;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, Helvetica, sans-seif';
+
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align:center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 60%;
+}
+.tbluu{
+    width: 60%;
+}
+.success{
+    color:darkgreen;
+}
+.error{
+    color:crimson;
+}
+table tr th{
+    border-bottom: 1 px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    
+}
+.btn-primary{
+    background-color:cornflowerblue;
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color:blue;
+}
+.btn-secondary{
+    background-color:chartreuse;
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color:darkgreen;
+}
+.btn-danger{
+    background-color:#ff6b81;
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color:#ff4757;
+}
+.menu{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+/* CSS for Menu */
+.menu ul{
+    list-style-type: none;
+
+}
+.menu ul li{
+    display : inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+menu ul li a:hover{
+    color:black;
+}
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+}
+body {
+    background-image: url('black.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Adjust text content styles for readability */
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* CSS for Footer */
+.footer{
+    background-color:black;
+    color: white;
+}
